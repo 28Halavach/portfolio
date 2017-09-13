@@ -1,14 +1,28 @@
 <link rel="stylesheet" href="project2.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<div class="container-fluid">
-  <div id="menu">
-      <a href="#"> Home </a>
-      <a href="#about"> About </a>
-      <a href= "#portfolio"> Portfolio </a>
-      <a href= "#contact"> Contact </a>
-    </div>
-    <div id="about">
-      <div class="row">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<html>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-default">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img alt="Logo" src="https://pp.userapi.com/c639325/v639325806/3cfe4/_1MuhXto2KY.jpg"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#about"> About </a></li>
+          <li><a href="#portfolio"> Portfolio </a></li>
+          <li><a href="#contact"> Contact </a></li>
+        </ul>
+      </div>
+      <div id="about" class="row">
         <h1> About me </h1>
         <div class="col-xs-12 col-sm-8 col-md-8">
           <p> I'm a beginner <em>Front-End Developer</em>.<br> My first steps and experience in the project <br> I received using FreeCodeCamp.<br> Some of my projects you can see below, in my portfolio.</p>
@@ -17,49 +31,63 @@
           <img src="https://avatars1.githubusercontent.com/u/25242235?v=4&u=d3d0cd6d7ad51445df0be3fa2e23c43a623f7bc0&s=400">
         </div>
       </div>
-</div>
-    <div id="portfolio">
-      <h2> Portfolio </h2>
-      <div class="row">
+      <div id="portfolio"class="row">
+        <h2> Portfolio </h2>
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <img id="thumbnail" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 1">
+          <img class="img-thumbnail" id="screenshot" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 1">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <img id="thumbnail" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 2">
+          <img class="img-thumbnail" id="screenshot" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 2">
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <img id="thumbnail" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 3">
+          <img class="img-thumbnail" id="screenshot" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 3">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <img id="thumbnail" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 4">
+          <img class="img-thumbnail" id="screenshot" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 4">
         </div>
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <img id="thumbnail" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 5">
+          <img class="img-thumbnail" id="screenshot" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 5">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <img id="thumbnail" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 6">
+          <img class="img-thumbnail" id="screenshot" src ="https://pp.userapi.com/c841126/v841126933/1abe0/1pUQITqcOzU.jpg" alt ="screenshot of project 6">
         </div>
       </div>
-    </div>
-    <div id="contact">
-      <h3> Contact me </h3>
-      <div class="row">
+      <div id="contact" class="row">
+        <h3> Contact me </h3>
         <div class="col-xs-12 col-sm-6 col-md-8">
           <form>
             <input class="form-control" type="text" placeholder="Your name" required><br>
             <input class="form-control" type="tel" placeholder="+375-(__)-___-__-__" required><br>
             <input class="form-control" type="email" placeholder="example@gmail.com" required><br>
+            <input class="form-control" type="text" placeholder="Your questions..." required><br>
             <button type="submit" class="btn btn-default"><i class="fa fa-paper-plane"></i> Submit</button>
           </form>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
-          <p> Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free to drop me a line anytime.
-I promise to reply A.S.A.P.</p>
+          <p> Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, to ask for me random questions about the anything, or even for some nice meeting here, in stunning Minsk... just feel free to ask me an anytime.<br><br>I promise to reply.</p>
         </div>
       </div>
-    </div>
-</div>
+      <div id="footer" class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <h4> ABOUT THIS PAGE </h4>
+          <p> Made with love <i class="fa fa-heart"></i><br> Written and coded by <a href="https://github.com/Anastasia1627" target="_blank"> Anastasia1627</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <h5> AROUND THE WEB </h5>
+          <a href="https://github.com/Anastasia1627" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://vk.com" target="_blank"><i class="fa fa-vk"></i></a>
+          <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+      </div>
+      <div id="copy">
+        <p><img alt="Logo" src="https://pp.userapi.com/c639325/v639325806/3cfe4/_1MuhXto2KY.jpg"> © 2017. All Rights Reversed</p>
+      </div>
+    </nav>
+  </div>
+</body>
+</html>
