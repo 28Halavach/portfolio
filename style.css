@@ -1,51 +1,70 @@
 body{
-  background-color:gray !important;
-  text-align:center !important;
-  z-index:9 !important;
-  font-family: serif !important;
+  background-color:gray;
+  text-align:center;
+  z-index:9;
+  font-family: serif;
   font-size:100%;
 }
 .navbar {
-  position: fixed !important;
-  width: 90% !important;
-  border: 0px solid transparent !important ;
+  position: fixed;
+  width: 100%;
+  border: none;
   z-index: 10;
 }
-.navbar-default .navbar-toggle {
-  border-color:  #9d17ca !important;
+.navbar-nav {
+  float: left;
+  padding-left: 30%;
+  position: relative;
+}
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-collapse {
+  border-color: #9d17ca;
 }
 .nav>li {
   font-size: 33px;
 }
-.nav>li>a {
-  color: inherit !important;
+.navbar-nav>li>a{
+  text-align: center;
+}
+.navbar-default .navbar-nav>li>a {
+  color: white;
+}
+.navbar-default .navbar-brand {
+  color: white;
+  font-size: 35px;
+  margin-bottom: 1%;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: white;
 }
 .container{
   background-color:#534a5d;
-  color: white !important;
+  color: white;
 }
 .container-fluid{
   background-color:#9d17ca;
 }
 .img-thumbnail{
-  padding: 1px !important;
+  padding: 1px;
   margin-bottom: 5%;
-  background-color: #9d17ca!important;
+  background-color: #9d17ca;
 }
 .form-control {
-  display: block !important;
-  height: 40px!important;
-  font-size: 20px!important;
-  color: #555 !important;
+  display: block;
+  height: 40px;
+  font-size: 20px;
+  color: #555;
 }
 h1, h2, h3 {
-  font-size:30px !important;
-  padding:9% 0% 5% 0% !important;
-  margin:0 auto !important;
+  font-size:30px;
+  padding-top: 9%;
+  padding-bottom: 5%;
+  margin:0 auto;
 }
 h4, h5 {
-  font-size: 20px !important;
-  margin: 5% !important;
+  font-size: 20px;
+  margin: 5%;
 }
 #about p{
   font-size:22px;
@@ -56,13 +75,13 @@ h4, h5 {
   width: 70%;
 }
 .btn-default {
-  color: #534a5d !important;
+  color: #534a5d;
   background-color: #fff;
-  border-color:#534a5d !important;
+  border-color:#534a5d;
 }
 .btn {
-  padding: 6px 12px !important;
-  font-weight: 500 !important;
+  padding: 6px 12px;
+  font-weight: 500;
 }
 #contact{
   margin:0 auto;
@@ -91,7 +110,7 @@ input{
   width: 8%;
 }
 .fa-heart {
-  font-size:20px !important;
+  font-size:20px;
 }
 #copy{
   width: 99%;
@@ -104,18 +123,18 @@ input{
   padding: 1%;
 }
 #copy img {
-  width: 25px !important;
+  width: 25px;
   vertical-align: bottom;
 }
 a{
-  color: #4C0B5F !important;
-  text-decoration: none !important;
+  color: #4C0B5F;
+  text-decoration: none;
 }
 form {
   margin-bottom: 7%;
 }
 #scroll a{
-  color: white !important;
+  color: white;
   position: fixed;
   right: 45px;
   bottom: 25px;
